@@ -7,5 +7,5 @@ urlpatterns = [
     path('register', Register , name='register'),
     path('forget-password', ForgetPassword , name='forget_password'),
     path('change-password/<token>/', ChangePassword, name = 'change_password'),
-    path('logout/', Logout , name = 'logout')
+    path('logout/', Logout , name = 'logout'),
     ]
